@@ -18,7 +18,18 @@ Modify your function to allocate space for the trimmed string! What is the diffe
 
 #include <stdio.h>
 
-int main(){
+void removeSpace(char str[]) {
+    int i=0;
+    while(str[i] != '\0') {
+        i++;
+    }
+    
+    int start;
+    int end = i-1;
+    
+}
 
+int main(){
+    
 return 0;
 }
